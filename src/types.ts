@@ -1,0 +1,1 @@
+export type UseQuery = <T extends object>(initialState: T) => [T, (state: Partial<T>) => void]
